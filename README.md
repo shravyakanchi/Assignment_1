@@ -1,2 +1,2 @@
-# Assignment_1
-Creation of Repository
+# Assignment_1 - ICP
+This is a Repository for Programming for Web & Mobile.
