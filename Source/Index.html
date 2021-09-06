@@ -1,10 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Assignment_1</title>
+    <title>Google Home Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1> Creating Index.html in local repo</h1>
+<ul id="nav-bar">
+    <li><a class="nav-bar-opacity" href="#">Gmail</a></li>
+    <li><a class="nav-bar-opacity" href="#">Images</a></li>
+    <li><a href="#">
+        <div class="nav-bar-opacity" id="menu-icon"></div>
+    </a></li>
+    <li><img id="notification_icon" alt="" src="Notification_icon.png"></li>
+    <!-- Added the Notification icon in the top right corner using the img tag -->
+    <li><img id="Sign_in_icon" alt="" src="Sign_in_icon.png" width="10px"></li>
+    <!-- Added the Sign icon in the top right corner using the img tag -->
+</ul>
+
+<div class="main-content">
+    <div id="logo">
+        <img alt="Google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+    <div id="search-bar">
+        <label>
+            <input name="search" type="text">
+        </label>
+        <a href="#" id="speech-link"><img
+                alt="Speech icon"
+                src="https://lh5.googleusercontent.com/OorCLDb2xlVQ4P2MDNCiwAnpv0K1ZrcDwEwRS3sOfDMrnYTnVPvCh7WtFQMbZ_S9u_jzcSLd8g=s128-h128-e365"></a>
+    </div>
+   <div class="tiles">
+       <ul>
+           <li><a href = "https://umkc.umsystem.edu/psp/csprdk/EMPLOYEE/SA/h/?tab=DEFAULT&cmd=login&errorCode=105&languageCd=ENG" target="_blank">
+               <img alt="" src="UMKC_pathway.JPG" ></a> </li>
+           <li><a href = "https://outlook.office.com/mail/inbox" target="_blank">
+               <img alt="" src="Outlook.PNG"></a> </li>
+           <li><a href = "https://www.youtube.com/channel/UCWwWOFsW68TqXE-HZLC3WIA" target="_blank">
+               <img alt="" src="YT.PNG"></a> </li>
+           <li><a href = "https://umsystem.instructure.com/" target="_blank">
+               <img alt="" src="Canvas.PNG"></a> </li>
+       </ul>
+       <ul>
+           <li><a href = "https://career.umkc.edu/" target="_blank">
+               <img alt="" src="Careers.PNG" ></a> </li>
+           <li><a href = "https://www.amazon.com/" target="_blank">
+               <img alt="" src="Amazon.PNG"></a> </li>
+           <li><a href = "https://yocket.com/" target="_blank">
+               <img alt="" src="Yocket.PNG"></a> </li>
+           <li><a href = "https://transitapp.com/" target="_blank">
+               <img alt="" src="Transit.PNG"></a> </li>
+       </ul>
+    </div>
+</div>
 </body>
+<footer>
+<div class="bottom-nav">
+    <ul class="ul-left">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <ul class="ul-right">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+
+    </ul>
+</div>
+</footer>
 </html>

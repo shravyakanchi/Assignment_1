@@ -1,0 +1,62 @@
+.background{
+    background-image: url(https://southasianvoices.org/wp-content/uploads/2020/08/Pangong_lake_-_Ladakh-scaled.jpg);
+    background-position:100%
+
+}
+#main_title {
+    font-size:80px;
+    font-family: Garamond;
+    padding-top: 100px;
+    color : white;
+    text-align: center;
+    font-weight: bold;
+}
+#sub_title {
+    font-size:30px;
+    font-family: Garamond;
+    padding-bottom: 100px;
+    color : beige;
+    text-align: center;
+    font-weight: normal;
+}
+.social_media_icons {
+    text-align: end;
+    padding:20px 10px 10px 10px;
+}
+#google {
+    padding: 10px 10px 10px 10px;
+}
+#youtube {
+    padding: 10px 10px 10px 10px;
+}
+
+#title {
+
+    font-size:70px;
+    font-family: Garamond
+    padding-bottom: 1px;
+    color : cornflowerblue;
+    text-align: match-parent;
+    font-weight: normal;
+}
+
+.content {
+
+    font-size:35px;
+    font-family: Serif;
+    padding-bottom: 1px;
+    color : black;
+    text-align: match-parent;
+    font-weight: normal;
+
+}
+
+.span_edits {
+    color: mediumslateblue;
+
+}
+.video_alignment {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    preload : "metadata"}
